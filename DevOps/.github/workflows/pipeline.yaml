@@ -24,3 +24,9 @@ jobs:
 
        - name: Run test
          run: npm test
+
+       - name: Debug Workspace
+         run: 
+            pwd
+            ls -la
+            find . -name "test.js"
